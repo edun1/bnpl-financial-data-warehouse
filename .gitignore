@@ -1,23 +1,11 @@
-# Database files
-*.duckdb
-*.db
-*.sqlite
 
-# Python files
+.venv/
+.env
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-fresh-env/
-dwh-env/
-
-# Large data files
-*.csv
-data/raw/
-
-# Cache and log files
-logs/
-*.log
-.dbt/
+*.pyc
+data/
 target/
+dbt_packages/
+logs/
+
+dbt_project/tabby_dbt/.user.yml

@@ -13,6 +13,8 @@ renamed as (
         installment_count,
         first_installment_amount,
         status,
+        currency,
+        as_of_date,
         _etl_extracted_at
     from source
 )
