@@ -33,7 +33,7 @@ models:
   - name: stg_user_events
     description: "Staging layer for event data, containing information about user interactions"
     columns:
-      - name: stg_user_events
+      - name: event_type
         description: "Type of event (app_open, product_view, search, etc.)"
         tests:
           - not_null
